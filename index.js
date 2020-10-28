@@ -1,7 +1,6 @@
 const csvFilePath='./input.csv';
 const csv = require('csvtojson');
 const fs = require('fs');
-const axios = require('axios');
 
 csv()
 .fromFile(csvFilePath)
@@ -35,4 +34,7 @@ csv()
             })})
         }))
     };
+
+    fs.writeFileSync('output.json', JSON.stringify(menu));
+
 });
