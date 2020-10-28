@@ -1,1 +1,150 @@
-{"sections":[{"name":"Entradas","items":[{"name":"Salada Caprese","price":"10.50","code":"20","description":"djkwanfjkdsanfklsdalfk","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[{"title":"Adicional queijo","price":"2.00"},{"title":"Queijo cheddar","price":"3.00"}]}]},{"name":"Salada 2","price":"20.00","code":"26","description":"","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[{"title":"Adicional queijo","price":"2.00"}]}]},{"name":"Salada de Bacon","price":"20.00","code":"25","description":"nsdfkldslkfjsalkj","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[]}]},{"name":"Salada mista","price":"20.00","code":"24","description":"","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[{"title":"Adicional queijo","price":"2.00"}]}]},{"name":"Sopa","price":"5.60","code":"21","description":"dsfsdafsdfsdfsaasdf","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[{"title":"Queijo cheddar","price":"3.00"}]}]}]},{"name":"Pratos principais","items":[{"name":"Carne","price":"20.00","code":"22","description":"sdlkajflksdajflkj","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[]}]},{"name":"Carne assada","price":"25.00","code":"23","description":"sdlkajflksdajflkj","customizations":[{"type":"MULTI_SELECT","title":"Adicionais","fields":[]}]}]}]}
+{
+  "sections": [
+    {
+      "name": "Entradas",
+      "items": [
+        {
+          "name": "",
+          "price": "10.50",
+          "code": "20",
+          "description": "djkwanfjkdsanfklsdalfk",
+          "customizations": [
+            {
+              "type": "MULTI_SELECT",
+              "title": "Adicionais",
+              "fields": [
+                { "title": "Adicional queijo", "price": "2.00", "code": "27" },
+                { "title": "Queijo cheddar", "price": "3.00", "code": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Salada 2",
+          "price": "20.00",
+          "code": "26",
+          "description": "",
+          "customizations": [
+            {
+              "type": "MULTI_SELECT",
+              "title": "Adicionais",
+              "fields": [
+                { "title": "Adicional queijo", "price": "2.00", "code": "27" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Salada de Bacon",
+          "price": "20.00",
+          "code": "25",
+          "description": "nsdfkldslkfjsalkj",
+          "customizations": [
+            { "type": "MULTI_SELECT", "title": "Adicionais", "fields": [] }
+          ]
+        },
+        {
+          "name": "Salada mista",
+          "price": "20.00",
+          "code": "24",
+          "description": "",
+          "customizations": [
+            {
+              "type": "MULTI_SELECT",
+              "title": "Adicionais",
+              "fields": [
+                { "title": "Adicional queijo", "price": "2.00", "code": "27" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sopa",
+          "price": "5.60",
+          "code": "21",
+          "description": "dsfsdafsdfsdfsaasdf",
+          "customizations": [
+            {
+              "type": "MULTI_SELECT",
+              "title": "Adicionais",
+              "fields": [
+                { "title": "Queijo cheddar", "price": "3.00", "code": "28" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pratos principais",
+      "items": [
+        {
+          "name": "Carne",
+          "price": "20.00",
+          "code": "22",
+          "description": "sdlkajflksdajflkj",
+          "customizations": [
+            { "type": "MULTI_SELECT", "title": "Adicionais", "fields": [] }
+          ]
+        },
+        {
+          "name": "Carne assada",
+          "price": "25.00",
+          "code": "23",
+          "description": "sdlkajflksdajflkj",
+          "customizations": [
+            { "type": "MULTI_SELECT", "title": "Adicionais", "fields": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "name": "Bolinho top",
+          "price": "0.00",
+          "code": "29",
+          "description": "Bolo de chocolate com morango.",
+          "customizations": [
+            { "type": "MULTI_SELECT", "title": "Adicionais", "fields": [] }
+          ]
+        },
+        {
+          "name": "Petit gateau",
+          "price": "5.00",
+          "code": "30",
+          "description": "",
+          "customizations": [
+            { "type": "MULTI_SELECT", "title": "Adicionais", "fields": [] }
+          ]
+        },
+        {
+          "name": "Teste com complemento inexistente",
+          "price": "7.00",
+          "code": "31",
+          "description": "",
+          "customizations": [
+            { "type": "MULTI_SELECT", "title": "Adicionais", "fields": [] }
+          ]
+        },
+        {
+          "name": "Teste com complemento inexistente e existente",
+          "price": "7.00",
+          "code": "31",
+          "description": "",
+          "customizations": [
+            {
+              "type": "MULTI_SELECT",
+              "title": "Adicionais",
+              "fields": [
+                { "title": "Adicional queijo", "price": "2.00", "code": "27" },
+                { "title": "Queijo cheddar", "price": "3.00", "code": "28" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

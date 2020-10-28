@@ -1,5 +1,5 @@
-Tipo,Seção,Nome,Preço,Descrição,Código,Adicionais
-Produto,Entradas,Salada Caprese, 10.50,djkwanfjkdsanfklsdalfk,20,27/28
+Tipo,Seção,Nome, Preço,Descrição,Código,Adicionais
+Produto,Entradas,, 10.50,djkwanfjkdsanfklsdalfk,20,27-28
 Produto,Entradas,Salada 2, 20.00,,26,27
 Produto,Entradas,Salada de Bacon, 20.00,nsdfkldslkfjsalkj,25,
 Produto,Entradas,Salada mista, 20.00,,24,27
@@ -8,3 +8,7 @@ Produto,Pratos principais,Carne, 20.00,sdlkajflksdajflkj,22,
 Produto,Pratos principais,Carne assada, 25.00,sdlkajflksdajflkj,23,
 Complemento,,Adicional queijo, 2.00,Queijo derretido,27,
 Complemento,,Queijo cheddar, 3.00,,28,
+Produto,Sobremesas,Bolinho top, 0.00,Bolo de chocolate com morango.,29,
+Produto,Sobremesas,Petit gateau, 5.00,,30,
+Produto,Sobremesas,Teste com complemento inexistente, 7.00,,31,10
+Produto,Sobremesas,Teste com complemento inexistente e existente, 7.00,,31,27-28-10
